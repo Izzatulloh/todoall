@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    @include container()
+}
+.row{
+    @include row()
+}
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
